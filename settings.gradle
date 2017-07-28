@@ -1,1 +1,1 @@
-include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo'
+include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo', ':JPGDecoder', ':MemoryDebug'
