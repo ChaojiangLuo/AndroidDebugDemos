@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" filepath="$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" filepath="$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" filepath="$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NativeBroardCast/NativeBroardCast.iml" filepath="$PROJECT_DIR$/NativeBroardCast/NativeBroardCast.iml" />
       <module fileurl="file://$PROJECT_DIR$/RenderScriptDemo/RenderScriptDemo.iml" filepath="$PROJECT_DIR$/RenderScriptDemo/RenderScriptDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToastDemo/ToastDemo.iml" filepath="$PROJECT_DIR$/ToastDemo/ToastDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

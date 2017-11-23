@@ -14,7 +14,9 @@
             <option value="$PROJECT_DIR$/DialogInputTextview" />
             <option value="$PROJECT_DIR$/JPGDecoder" />
             <option value="$PROJECT_DIR$/MemoryDebug" />
+            <option value="$PROJECT_DIR$/NativeBroardCast" />
             <option value="$PROJECT_DIR$/RenderScriptDemo" />
+            <option value="$PROJECT_DIR$/ToastDemo" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

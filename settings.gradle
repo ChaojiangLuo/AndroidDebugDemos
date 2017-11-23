@@ -1,1 +1,1 @@
-include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo', ':JPGDecoder', ':MemoryDebug', ':ColorSlideShow', ':DialogInputTextview'
+include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo', ':JPGDecoder', ':MemoryDebug', ':ColorSlideShow', ':DialogInputTextview', ':ToastDemo', ':NativeBroardCast'
