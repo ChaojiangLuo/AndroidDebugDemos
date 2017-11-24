@@ -1,1 +1,1 @@
-include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo', ':JPGDecoder', ':MemoryDebug', ':ColorSlideShow', ':DialogInputTextview', ':ToastDemo', ':NativeBroardCast', ':D10-SurfacePixelValidator', ':D11-BufferBalidator'
+include ':app', ':CtsSmallStructsTest', ':CropSetDemo', ':RenderScriptDemo', ':JPGDecoder', ':MemoryDebug', ':ColorSlideShow', ':DialogInputTextview', ':ToastDemo', ':NativeBroardCast', ':D10-SurfacePixelValidator', ':D11-RenderScript'

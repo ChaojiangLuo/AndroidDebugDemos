@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/CropSetDemo/CropSetDemo.iml" filepath="$PROJECT_DIR$/CropSetDemo/CropSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CtsSmallStructsTest/CtsSmallStructsTest.iml" filepath="$PROJECT_DIR$/CtsSmallStructsTest/CtsSmallStructsTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D11-BufferBalidator/D11-BufferBalidator.iml" filepath="$PROJECT_DIR$/D11-BufferBalidator/D11-BufferBalidator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" filepath="$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" filepath="$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" filepath="$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" />
