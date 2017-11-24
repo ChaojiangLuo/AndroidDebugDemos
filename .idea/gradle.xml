@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/ColorSlideShow" />
             <option value="$PROJECT_DIR$/CropSetDemo" />
             <option value="$PROJECT_DIR$/CtsSmallStructsTest" />
+            <option value="$PROJECT_DIR$/D10-SurfacePixelValidator" />
+            <option value="$PROJECT_DIR$/D11-BufferBalidator" />
             <option value="$PROJECT_DIR$/DialogInputTextview" />
             <option value="$PROJECT_DIR$/JPGDecoder" />
             <option value="$PROJECT_DIR$/MemoryDebug" />
