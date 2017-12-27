@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/CtsSmallStructsTest" />
             <option value="$PROJECT_DIR$/D10-SurfacePixelValidator" />
             <option value="$PROJECT_DIR$/D11-RenderScript" />
+            <option value="$PROJECT_DIR$/D12-OpenGL2Basic" />
             <option value="$PROJECT_DIR$/DialogInputTextview" />
             <option value="$PROJECT_DIR$/JPGDecoder" />
             <option value="$PROJECT_DIR$/MemoryDebug" />
