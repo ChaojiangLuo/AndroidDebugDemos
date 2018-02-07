@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Decoder-Bitmap/Decoder-Bitmap.iml" filepath="$PROJECT_DIR$/Decoder-Bitmap/Decoder-Bitmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" filepath="$PROJECT_DIR$/DialogInputTextview/DialogInputTextview.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" filepath="$PROJECT_DIR$/JPGDecoder/JPGDecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" filepath="$PROJECT_DIR$/MemoryDebug/MemoryDebug.iml" />
