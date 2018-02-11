@@ -13,6 +13,7 @@
  * This file contains routines that are only called from within
  * libpng itself during the course of reading an image.
  */
+#include <android/log.h>
 
 #include "pngpriv.h"
 
@@ -4125,6 +4126,29 @@ png_read_filter_row(png_structrp pp, png_row_infop row_info, png_bytep row,
 }
 
 #ifdef PNG_SEQUENTIAL_READ_SUPPORTED
+#define ALOGE(...) ((void)__android_log_print(ANDROID_LOG_ERROR, "PngCodec", __VA_ARGS__))
+
+void Hex2Str( const char *sSrc,  char *sDest, int nSrcLen )
+{
+    int  i;
+    char szTmp[3];
+
+    for( i = 0; i < nSrcLen; i++ )
+    {
+        sprintf( szTmp, "%02X", (unsigned char) sSrc[i] );
+        memcpy( &sDest[i * 2], szTmp, 2 );
+    }
+    return ;
+}
+
+void png_show_byte (char* str, png_byte bytes[], int size) {
+    png_byte hexStr[size * 2];
+    Hex2Str(bytes, hexStr, size);
+
+    ALOGE("png_show_byte %s %s", str, hexStr);
+}
+
+
 void /* PRIVATE */
 png_read_IDAT_data(png_structrp png_ptr, png_bytep output,
     png_alloc_size_t avail_out)
@@ -4194,6 +4218,9 @@ png_read_IDAT_data(png_structrp png_ptr, png_bytep output,
          png_ptr->zstream.next_out = tmpbuf;
          png_ptr->zstream.avail_out = (sizeof tmpbuf);
       }
+
+      png_show_byte("next_in", png_ptr->zstream.next_in, png_ptr->zstream.avail_in);
+      png_show_byte("next_out", png_ptr->zstream.next_out, png_ptr->zstream.avail_out);
 
       /* Use NO_FLUSH; this gives zlib the maximum opportunity to optimize the
        * process.  If the LZ stream is truncated the sequential reader will
