@@ -20,6 +20,7 @@
 
 #include <jni.h>
 #include <errno.h>
+#include <string.h>
 
 #include <EGL/egl.h>
 #include <GLES/gl.h>
