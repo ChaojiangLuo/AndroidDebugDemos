@@ -8,20 +8,20 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ColorSlideShow" />
-            <option value="$PROJECT_DIR$/CropSetDemo" />
-            <option value="$PROJECT_DIR$/CtsSmallStructsTest" />
+            <option value="$PROJECT_DIR$/Codec-BitmapCodec" />
+            <option value="$PROJECT_DIR$/Codec-JPGCodec" />
+            <option value="$PROJECT_DIR$/Codec-PngCodec" />
+            <option value="$PROJECT_DIR$/D01-CropSetDemo" />
+            <option value="$PROJECT_DIR$/D02-CtsSmallStructsTest" />
+            <option value="$PROJECT_DIR$/D03-DialogInputTextview" />
+            <option value="$PROJECT_DIR$/D04-MemoryDebug" />
+            <option value="$PROJECT_DIR$/D05-ColorSlideShow" />
+            <option value="$PROJECT_DIR$/D06-NativeBroardCast" />
+            <option value="$PROJECT_DIR$/D07-RenderScriptDemo" />
+            <option value="$PROJECT_DIR$/D08-ToastDemo" />
             <option value="$PROJECT_DIR$/D10-SurfacePixelValidator" />
             <option value="$PROJECT_DIR$/D11-RenderScript" />
             <option value="$PROJECT_DIR$/D12-OpenGL2Basic" />
-            <option value="$PROJECT_DIR$/Decoder-Bitmap" />
-            <option value="$PROJECT_DIR$/DialogInputTextview" />
-            <option value="$PROJECT_DIR$/JPGDecoder" />
-            <option value="$PROJECT_DIR$/MemoryDebug" />
-            <option value="$PROJECT_DIR$/NativeBroardCast" />
-            <option value="$PROJECT_DIR$/PngCodec" />
-            <option value="$PROJECT_DIR$/RenderScriptDemo" />
-            <option value="$PROJECT_DIR$/ToastDemo" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

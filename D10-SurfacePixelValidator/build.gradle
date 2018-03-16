@@ -3,8 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
 
-
-
     defaultConfig {
         applicationId "com.example.surfacepixelvalidator"
         minSdkVersion 24
@@ -13,7 +11,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
     }
 
     buildTypes {
@@ -39,16 +39,6 @@ android {
         }
     }
 
-    defaultConfig {
-        externalNativeBuild {
-            cmake {
-                arguments '-DANDROID_PLATFORM=android-26',
-                        '-DANDROID_TOOLCHAIN=clang'
-                cppFlags "-std=c++11 -fno-rtti -fexceptions "
-                abiFilters 'armeabi-v7a', 'arm64-v8a'
-            }
-        }
-    }
 }
 
 dependencies {

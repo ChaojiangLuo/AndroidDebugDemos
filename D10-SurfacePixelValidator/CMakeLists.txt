@@ -19,8 +19,7 @@ add_library( native_pixelvalidator
              SHARED
              src/main/cpp/SurfacePixelValidator.cpp
              src/main/rs/PixelCounter.rs
-             src/main/rs/mono.rs
-             build/generated/source/rs/debug/ScriptC_PixelCounter.cpp)
+             src/main/rs/mono.rs )
 
 target_link_libraries( native_pixelvalidator
                        RScpp_static
