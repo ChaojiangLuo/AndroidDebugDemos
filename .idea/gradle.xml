@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AV01-DynamicAdjustVolume" />
             <option value="$PROJECT_DIR$/Codec-BitmapCodec" />
             <option value="$PROJECT_DIR$/Codec-JPGCodec" />
             <option value="$PROJECT_DIR$/Codec-PngCodec" />

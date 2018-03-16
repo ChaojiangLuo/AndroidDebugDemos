@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" filepath="$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/.idea/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Decoder-Bitmap.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Decoder-Bitmap.iml" />
