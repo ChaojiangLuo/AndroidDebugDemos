@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-
     defaultConfig {
         applicationId "com.example.surfacepixelvalidator"
         minSdkVersion 24
@@ -15,7 +14,6 @@ android {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -26,19 +24,17 @@ android {
             renderscriptDebuggable true
         }
     }
-
     defaultConfig {
         renderscriptTargetApi 26
         renderscriptSupportModeEnabled false
         renderscriptNdkModeEnabled true
     }
-
     externalNativeBuild {
         cmake {
             path 'CMakeLists.txt'
         }
     }
-
+    buildToolsVersion '27.0.0'
 }
 
 dependencies {
