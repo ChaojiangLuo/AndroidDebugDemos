@@ -24,6 +24,7 @@ android {
     }
     productFlavors {
     }
+    buildToolsVersion '27.0.0'
 }
 
 dependencies {
