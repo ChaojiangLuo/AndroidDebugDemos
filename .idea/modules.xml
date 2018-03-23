@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" filepath="$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" filepath="$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" filepath="$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" />
       <module fileurl="file://$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" filepath="$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" filepath="$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" filepath="$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" />
       <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" />

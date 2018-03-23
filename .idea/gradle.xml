@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AV01-DynamicAdjustVolume" />
+            <option value="$PROJECT_DIR$/AV02-AudioManagerAdjustVolume" />
             <option value="$PROJECT_DIR$/Codec-BitmapCodec" />
             <option value="$PROJECT_DIR$/Codec-JPGCodec" />
             <option value="$PROJECT_DIR$/Codec-PngCodec" />
@@ -20,6 +21,7 @@
             <option value="$PROJECT_DIR$/D06-NativeBroardCast" />
             <option value="$PROJECT_DIR$/D07-RenderScriptDemo" />
             <option value="$PROJECT_DIR$/D08-ToastDemo" />
+            <option value="$PROJECT_DIR$/D09-DebugJavaReferene" />
             <option value="$PROJECT_DIR$/D10-SurfacePixelValidator" />
             <option value="$PROJECT_DIR$/D11-RenderScript" />
             <option value="$PROJECT_DIR$/D12-OpenGL2Basic" />
