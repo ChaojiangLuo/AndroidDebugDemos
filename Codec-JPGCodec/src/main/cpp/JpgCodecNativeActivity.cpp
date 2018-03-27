@@ -2,8 +2,7 @@
 
 #include <malloc.h>
 
-#include "utils.h"
-#include "PngTest.h"
+#include "JpegTest.h"
 
 static int32_t engine_handle_input(struct android_app* app, AInputEvent* event) {
     struct engine* engine = (struct engine*)app->userData;
@@ -12,9 +11,9 @@ static int32_t engine_handle_input(struct android_app* app, AInputEvent* event) 
         return 1;
     } else if (AInputEvent_getType(event) == AINPUT_EVENT_TYPE_KEY) {
         ALOGI("Key event: action=%d keyCode=%d metaState=0x%x",
-              AKeyEvent_getAction(event),
-              AKeyEvent_getKeyCode(event),
-              AKeyEvent_getMetaState(event));
+             AKeyEvent_getAction(event),
+             AKeyEvent_getKeyCode(event),
+             AKeyEvent_getMetaState(event));
     }
 
     return 0;
@@ -46,12 +45,8 @@ void android_main(android_app *app) {
     app->onInputEvent = engine_handle_input;
 
     char fileName[512] = {0};
-    sprintf(fileName, "/data/medias/png/%s", "png_4_2_32bit.png");
-
-    readPngFile(fileName);
-
-    sprintf(fileName, "/data/medias/png/%s", "png_4_2_32bit_alpha.png");
-    buildPngFile(fileName);
+    sprintf(fileName, "/data/medias/jpg/%s", "jpg_4_2_32bit.jpg");
+    readJpegFile(fileName);
 
     while (1) {
         // Read all pending events.
