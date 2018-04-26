@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AV03-PlayRingtone/03-PlayRingtone.iml" filepath="$PROJECT_DIR$/AV03-PlayRingtone/03-PlayRingtone.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" filepath="$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" filepath="$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" filepath="$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" filepath="$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" filepath="$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
