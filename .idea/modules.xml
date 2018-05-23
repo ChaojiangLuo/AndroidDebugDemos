@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" filepath="$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" filepath="$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" filepath="$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" filepath="$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" filepath="$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />

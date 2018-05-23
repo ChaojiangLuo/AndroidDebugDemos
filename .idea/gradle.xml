@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/AV03-PlayRingtone" />
             <option value="$PROJECT_DIR$/AV04-SetRingerMode" />
             <option value="$PROJECT_DIR$/AV05-PlayInCallNotification" />
+            <option value="$PROJECT_DIR$/AV06-AudioTrackPlay" />
+            <option value="$PROJECT_DIR$/AV07-AudioFocus" />
             <option value="$PROJECT_DIR$/Codec-BitmapCodec" />
             <option value="$PROJECT_DIR$/Codec-JPGCodec" />
             <option value="$PROJECT_DIR$/Codec-PngCodec" />
