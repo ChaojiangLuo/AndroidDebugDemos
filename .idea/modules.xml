@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" filepath="$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" filepath="$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" filepath="$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" filepath="$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" filepath="$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" filepath="$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
