@@ -27,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" filepath="$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" filepath="$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" filepath="$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
