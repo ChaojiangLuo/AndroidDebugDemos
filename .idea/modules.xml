@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" filepath="$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" filepath="$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" filepath="$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" filepath="$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
