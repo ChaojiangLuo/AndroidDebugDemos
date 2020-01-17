@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" filepath="$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" filepath="$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" filepath="$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" filepath="$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" filepath="$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" />
@@ -33,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" filepath="$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" filepath="$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/D15-Notification/D15-Notification.iml" filepath="$PROJECT_DIR$/D15-Notification/D15-Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" filepath="$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" filepath="$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

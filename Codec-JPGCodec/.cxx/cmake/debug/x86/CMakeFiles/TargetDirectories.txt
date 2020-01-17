@@ -1,0 +1,5 @@
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/CMakeFiles/jpeg.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/CMakeFiles/jpg_codec.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/CMakeFiles/native_activity_glue.dir

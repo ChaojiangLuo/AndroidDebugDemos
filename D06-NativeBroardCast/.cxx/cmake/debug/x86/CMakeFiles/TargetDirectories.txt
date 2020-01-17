@@ -1,0 +1,4 @@
+/home/luocj/my_works/sources/AndroidDebugDemos/D06-NativeBroardCast/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/D06-NativeBroardCast/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/D06-NativeBroardCast/.cxx/cmake/debug/x86/CMakeFiles/native_broadcast.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/D06-NativeBroardCast/.cxx/cmake/debug/x86/CMakeFiles/native_activity_glue.dir

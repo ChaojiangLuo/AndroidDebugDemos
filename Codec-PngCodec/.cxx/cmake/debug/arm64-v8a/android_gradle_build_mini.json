@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "zlib-Debug-arm64-v8a": {
+      "artifactName": "zlib",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target zlib",
+      "abi": "arm64-v8a",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libzlib.a"
+    },
+    "png-Debug-arm64-v8a": {
+      "artifactName": "png",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target png",
+      "abi": "arm64-v8a",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libpng.a"
+    },
+    "png_codec-Debug-arm64-v8a": {
+      "artifactName": "png_codec",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target png_codec",
+      "abi": "arm64-v8a",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/build/intermediates/cmake/debug/obj/arm64-v8a/libpng_codec.so"
+    },
+    "native_activity_glue-Debug-arm64-v8a": {
+      "artifactName": "native_activity_glue",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target native_activity_glue",
+      "abi": "arm64-v8a",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libnative_activity_glue.a"
+    }
+  }
+}

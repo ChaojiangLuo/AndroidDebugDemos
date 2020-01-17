@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "MyJNI-lib-Debug-x86": {
+      "artifactName": "MyJNI-lib",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86 --target MyJNI-lib",
+      "abi": "x86",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/build/intermediates/cmake/debug/obj/x86/libMyJNI-lib.so"
+    }
+  }
+}

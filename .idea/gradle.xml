@@ -3,6 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -23,6 +26,7 @@
             <option value="$PROJECT_DIR$/Codec-BitmapCodec" />
             <option value="$PROJECT_DIR$/Codec-JPGCodec" />
             <option value="$PROJECT_DIR$/Codec-PngCodec" />
+            <option value="$PROJECT_DIR$/Codec_AndroidBitmap" />
             <option value="$PROJECT_DIR$/D01-CropSetDemo" />
             <option value="$PROJECT_DIR$/D02-CtsSmallStructsTest" />
             <option value="$PROJECT_DIR$/D03-DialogInputTextview" />
@@ -38,6 +42,7 @@
             <option value="$PROJECT_DIR$/D13-ResourceLoader" />
             <option value="$PROJECT_DIR$/D14-JsonFile" />
             <option value="$PROJECT_DIR$/D15-Notification" />
+            <option value="$PROJECT_DIR$/D16_ImageViewDemo" />
             <option value="$PROJECT_DIR$/Img01-ImageThumbnail" />
             <option value="$PROJECT_DIR$/app" />
           </set>

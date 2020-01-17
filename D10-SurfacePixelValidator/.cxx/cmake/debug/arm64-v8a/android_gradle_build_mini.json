@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/luocj/my_works/sources/AndroidDebugDemos/D10-SurfacePixelValidator/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D10-SurfacePixelValidator/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native_pixelvalidator-Debug-arm64-v8a": {
+      "artifactName": "native_pixelvalidator",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D10-SurfacePixelValidator/.cxx/cmake/debug/arm64-v8a --target native_pixelvalidator",
+      "abi": "arm64-v8a",
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/D10-SurfacePixelValidator/build/intermediates/cmake/debug/obj/arm64-v8a/libnative_pixelvalidator.so"
+    }
+  }
+}

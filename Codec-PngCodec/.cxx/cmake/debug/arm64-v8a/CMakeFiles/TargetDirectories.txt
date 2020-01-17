@@ -1,0 +1,6 @@
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/png.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/png_codec.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/zlib.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native_activity_glue.dir

@@ -1,0 +1,3 @@
+/home/luocj/my_works/sources/AndroidDebugDemos/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/luocj/my_works/sources/AndroidDebugDemos/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
