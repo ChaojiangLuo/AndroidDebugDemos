@@ -2,41 +2,43 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" filepath="$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" filepath="$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" filepath="$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" filepath="$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" filepath="$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" filepath="$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" filepath="$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" filepath="$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" filepath="$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" filepath="$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV11_AudioEffect/AV11_AudioEffect.iml" filepath="$PROJECT_DIR$/AV11_AudioEffect/AV11_AudioEffect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AV12_SoundRecorder/AV12_SoundRecorder.iml" filepath="$PROJECT_DIR$/AV12_SoundRecorder/AV12_SoundRecorder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" filepath="$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" filepath="$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" filepath="$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" filepath="$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" filepath="$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D04-MemoryDebug/D04-MemoryDebug.iml" filepath="$PROJECT_DIR$/D04-MemoryDebug/D04-MemoryDebug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D05-ColorSlideShow/D05-ColorSlideShow.iml" filepath="$PROJECT_DIR$/D05-ColorSlideShow/D05-ColorSlideShow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" filepath="$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" filepath="$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" filepath="$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" filepath="$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" filepath="$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" filepath="$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D15-Notification/D15-Notification.iml" filepath="$PROJECT_DIR$/D15-Notification/D15-Notification.iml" />
-      <module fileurl="file://$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" filepath="$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" filepath="$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" filepath="$PROJECT_DIR$/AV01-DynamicAdjustVolume/AV01-DynamicAdjustVolume.iml" group="AndroidDebugDemos/AV01-DynamicAdjustVolume" />
+      <module fileurl="file://$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" filepath="$PROJECT_DIR$/AV02-AudioManagerAdjustVolume/AV02-AudioManagerAdjustVolume.iml" group="AndroidDebugDemos/AV02-AudioManagerAdjustVolume" />
+      <module fileurl="file://$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" filepath="$PROJECT_DIR$/AV03-PlayRingtone/AV03-PlayRingtone.iml" group="AndroidDebugDemos/AV03-PlayRingtone" />
+      <module fileurl="file://$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" filepath="$PROJECT_DIR$/AV04-SetRingerMode/AV04-SetRingerMode.iml" group="AndroidDebugDemos/AV04-SetRingerMode" />
+      <module fileurl="file://$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" filepath="$PROJECT_DIR$/AV05-PlayInCallNotification/AV05-PlayInCallNotification.iml" group="AndroidDebugDemos/AV05-PlayInCallNotification" />
+      <module fileurl="file://$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" filepath="$PROJECT_DIR$/AV06-AudioTrackPlay/AV06-AudioTrackPlay.iml" group="AndroidDebugDemos/AV06-AudioTrackPlay" />
+      <module fileurl="file://$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" filepath="$PROJECT_DIR$/AV07-AudioFocus/AV07-AudioFocus.iml" group="AndroidDebugDemos/AV07-AudioFocus" />
+      <module fileurl="file://$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" filepath="$PROJECT_DIR$/AV08-AudioHeadSet/AV08-AudioHeadSet.iml" group="AndroidDebugDemos/AV08-AudioHeadSet" />
+      <module fileurl="file://$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" filepath="$PROJECT_DIR$/AV09-HeadSetTracker/AV09-HeadSetTracker.iml" group="AndroidDebugDemos/AV09-HeadSetTracker" />
+      <module fileurl="file://$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" filepath="$PROJECT_DIR$/AV10-MiaiAudioPlayer/AV10-MiaiAudioPlayer.iml" group="AndroidDebugDemos/AV10-MiaiAudioPlayer" />
+      <module fileurl="file://$PROJECT_DIR$/AV11_AudioEffect/AV11_AudioEffect.iml" filepath="$PROJECT_DIR$/AV11_AudioEffect/AV11_AudioEffect.iml" group="AndroidDebugDemos/AV11_AudioEffect" />
+      <module fileurl="file://$PROJECT_DIR$/AV12_SoundRecorder/AV12_SoundRecorder.iml" filepath="$PROJECT_DIR$/AV12_SoundRecorder/AV12_SoundRecorder.iml" group="AndroidDebugDemos/AV12_SoundRecorder" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidDebugDemos.iml" filepath="$PROJECT_DIR$/AndroidDebugDemos.iml" group="AndroidDebugDemos" />
+      <module fileurl="file://$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" filepath="$PROJECT_DIR$/Codec-BitmapCodec/Codec-BitmapCodec.iml" group="AndroidDebugDemos/Codec-BitmapCodec" />
+      <module fileurl="file://$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" filepath="$PROJECT_DIR$/Codec-JPGCodec/Codec-JPGCodec.iml" group="AndroidDebugDemos/Codec-JPGCodec" />
+      <module fileurl="file://$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" filepath="$PROJECT_DIR$/Codec-PngCodec/Codec-PngCodec.iml" group="AndroidDebugDemos/Codec-PngCodec" />
+      <module fileurl="file://$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" filepath="$PROJECT_DIR$/Codec_AndroidBitmap/Codec_AndroidBitmap.iml" group="AndroidDebugDemos/Codec_AndroidBitmap" />
+      <module fileurl="file://$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" filepath="$PROJECT_DIR$/D01-CropSetDemo/D01-CropSetDemo.iml" group="AndroidDebugDemos/D01-CropSetDemo" />
+      <module fileurl="file://$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" filepath="$PROJECT_DIR$/D02-CtsSmallStructsTest/D02-CtsSmallStructsTest.iml" group="AndroidDebugDemos/D02-CtsSmallStructsTest" />
+      <module fileurl="file://$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" filepath="$PROJECT_DIR$/D03-DialogInputTextview/D03-DialogInputTextview.iml" group="AndroidDebugDemos/D03-DialogInputTextview" />
+      <module fileurl="file://$PROJECT_DIR$/D04-MemoryDebug/D04-MemoryDebug.iml" filepath="$PROJECT_DIR$/D04-MemoryDebug/D04-MemoryDebug.iml" group="AndroidDebugDemos/D04-MemoryDebug" />
+      <module fileurl="file://$PROJECT_DIR$/D05-ColorSlideShow/D05-ColorSlideShow.iml" filepath="$PROJECT_DIR$/D05-ColorSlideShow/D05-ColorSlideShow.iml" group="AndroidDebugDemos/D05-ColorSlideShow" />
+      <module fileurl="file://$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" filepath="$PROJECT_DIR$/D06-NativeBroardCast/D06-NativeBroardCast.iml" group="AndroidDebugDemos/D06-NativeBroardCast" />
+      <module fileurl="file://$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" filepath="$PROJECT_DIR$/D07-RenderScriptDemo/D07-RenderScriptDemo.iml" group="AndroidDebugDemos/D07-RenderScriptDemo" />
+      <module fileurl="file://$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" filepath="$PROJECT_DIR$/D08-ToastDemo/D08-ToastDemo.iml" group="AndroidDebugDemos/D08-ToastDemo" />
+      <module fileurl="file://$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" filepath="$PROJECT_DIR$/D09-DebugJavaReferene/D09-DebugJavaReferene.iml" group="AndroidDebugDemos/D09-DebugJavaReferene" />
+      <module fileurl="file://$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" filepath="$PROJECT_DIR$/D10-SurfacePixelValidator/D10-SurfacePixelValidator.iml" group="AndroidDebugDemos/D10-SurfacePixelValidator" />
+      <module fileurl="file://$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" filepath="$PROJECT_DIR$/D11-RenderScript/D11-RenderScript.iml" group="AndroidDebugDemos/D11-RenderScript" />
+      <module fileurl="file://$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" filepath="$PROJECT_DIR$/D12-OpenGL2Basic/D12-OpenGL2Basic.iml" group="AndroidDebugDemos/D12-OpenGL2Basic" />
+      <module fileurl="file://$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" filepath="$PROJECT_DIR$/D13-ResourceLoader/D13-ResourceLoader.iml" group="AndroidDebugDemos/D13-ResourceLoader" />
+      <module fileurl="file://$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" filepath="$PROJECT_DIR$/D14-JsonFile/D14-JsonFile.iml" group="AndroidDebugDemos/D14-JsonFile" />
+      <module fileurl="file://$PROJECT_DIR$/D15-Notification/D15-Notification.iml" filepath="$PROJECT_DIR$/D15-Notification/D15-Notification.iml" group="AndroidDebugDemos/D15-Notification" />
+      <module fileurl="file://$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" filepath="$PROJECT_DIR$/D16_ImageViewDemo/D16_ImageViewDemo.iml" group="AndroidDebugDemos/D16_ImageViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/D17-FodTest/D17-FodTest.iml" filepath="$PROJECT_DIR$/D17-FodTest/D17-FodTest.iml" group="AndroidDebugDemos/D17-FodTest" />
+      <module fileurl="file://$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" filepath="$PROJECT_DIR$/Img01-ImageThumbnail/Img01-ImageThumbnail.iml" group="AndroidDebugDemos/Img01-ImageThumbnail" />
+      <module fileurl="file://$PROJECT_DIR$/Img02_BitmapMatrix/Img02_BitmapMatrix.iml" filepath="$PROJECT_DIR$/Img02_BitmapMatrix/Img02_BitmapMatrix.iml" group="AndroidDebugDemos/Img02_BitmapMatrix" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidDebugDemos/app" />
     </modules>
   </component>
 </project>

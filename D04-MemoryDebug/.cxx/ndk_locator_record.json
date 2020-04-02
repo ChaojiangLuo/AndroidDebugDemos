@@ -35,7 +35,11 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/home/luocj/Android/Sdk/ndk-bundle) which has version 20.1.5948944"
+      "message": "Considering /home/luocj/Android/Sdk/ndk/21.0.6113669 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested ndk.dir (/home/luocj/Android/Sdk/ndk-bundle) which has version 21.0.6113669"
     }
   ]
 }

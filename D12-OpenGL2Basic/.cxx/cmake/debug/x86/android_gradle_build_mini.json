@@ -1,20 +1,23 @@
 {
   "buildFiles": [
-    "/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/CMakeLists.txt"
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/CMakeLists.txt",
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
   ],
   "cleanCommands": [
-    "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86 --target clean"
+    "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86\" clean"
   ],
+  "buildTargetsCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native_activity_glue-Debug-x86": {
       "artifactName": "native_activity_glue",
-      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86 --target native_activity_glue",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86\" native_activity_glue",
       "abi": "x86",
       "output": "/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86/libnative_activity_glue.a"
     },
     "native_gl2_basic-Debug-x86": {
       "artifactName": "native_gl2_basic",
-      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86 --target native_gl2_basic",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/.cxx/cmake/debug/x86\" native_gl2_basic",
       "abi": "x86",
       "output": "/home/luocj/my_works/sources/AndroidDebugDemos/D12-OpenGL2Basic/build/intermediates/cmake/debug/obj/x86/libnative_gl2_basic.so"
     }

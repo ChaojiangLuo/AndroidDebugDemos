@@ -1,9 +1,13 @@
 package com.luocj.demos.imageview;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.MotionEvent;
+import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ImageViewDemoActivity extends Activity {
 
@@ -17,6 +21,20 @@ public class ImageViewDemoActivity extends Activity {
         } catch (Exception e) {
 
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        Context context = getApplicationContext();
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+
+        Display dpy = wm.getDefaultDisplay();
+        float claimedFps = dpy.getRefreshRate();
+
+        TextView textView =  findViewById(R.id.textview);
+        textView.setText("Current FPS:" + claimedFps);
     }
 
     @Override

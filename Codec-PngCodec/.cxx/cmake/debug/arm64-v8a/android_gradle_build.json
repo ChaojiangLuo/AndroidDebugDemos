@@ -1,276 +1,246 @@
-
 {
-	"buildFiles" : 
-	[
-		"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/CMakeLists.txt"
-	],
-	"cFileExtensions" : [ "c" ],
-	"cleanCommands" : 
-	[
-		"/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"native_activity_glue-Debug-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "native_activity_glue",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target native_activity_glue",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libnative_activity_glue.a",
-			"toolchain" : "6191103400009865258"
-		},
-		"png-Debug-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "png",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target png",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/png.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngerror.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngget.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngmem.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngpread.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngread.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrio.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrtran.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrutil.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngset.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngtrans.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwio.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwrite.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwtran.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwutil.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libpng.a",
-			"toolchain" : "6191103400009865258"
-		},
-		"png_codec-Debug-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "png_codec",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target png_codec",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpng_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/PngCodecNativeActivity.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpng_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/PngTest.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dpng_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/utils.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/build/intermediates/cmake/debug/obj/arm64-v8a/libpng_codec.so",
-			"toolchain" : "6191103400009865258"
-		},
-		"zlib-Debug-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "zlib",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a --target zlib",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/adler32.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/compress.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/crc32.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/deflate.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzclose.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzlib.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzread.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzwrite.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/infback.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inflate.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inftrees.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inffast.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/trees.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/uncompr.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				},
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../zlib/zlib-1.2.11  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/zutil.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libzlib.a",
-			"toolchain" : "6191103400009865258"
-		}
-	},
-	"toolchains" : 
-	{
-		"6191103400009865258" : 
-		{
-			"cCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {
+    "0": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dpng_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../png/libpng-1.6.34 -I../../../../zlib/zlib-1.2.11 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Werror -D VK_USE_PLATFORM_ANDROID_KHR -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../zlib/zlib-1.2.11 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "4": "--target=aarch64-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/CMakeLists.txt",
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "zlib-Debug-arm64-v8a": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" zlib",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "arm64-v8a",
+      "artifactName": "zlib",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/adler32.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/compress.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/crc32.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/deflate.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzclose.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzlib.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzread.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/gzwrite.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/infback.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inflate.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inftrees.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/inffast.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/trees.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/uncompr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/zlib/zlib-1.2.11/zutil.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libzlib.a"
+    },
+    "png-Debug-arm64-v8a": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" png",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "arm64-v8a",
+      "artifactName": "png",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/png.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngerror.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngget.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngmem.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngpread.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngread.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrio.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrtran.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngrutil.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngset.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngtrans.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwio.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwrite.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwtran.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/png/libpng-1.6.34/pngwutil.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libpng.a"
+    },
+    "png_codec-Debug-arm64-v8a": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" png_codec",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "arm64-v8a",
+      "artifactName": "png_codec",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/PngCodecNativeActivity.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/PngTest.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/src/main/cpp/utils.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/build/intermediates/cmake/debug/obj/arm64-v8a/libpng_codec.so"
+    },
+    "native_activity_glue-Debug-arm64-v8a": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a\" native_activity_glue",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "arm64-v8a",
+      "artifactName": "native_activity_glue",
+      "files": [
+        {
+          "src": "/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-PngCodec/.cxx/cmake/debug/arm64-v8a/libnative_activity_glue.a"
+    }
+  },
+  "toolchains": {
+    "2880606592": {
+      "cCompilerExecutable": "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

@@ -13,6 +13,7 @@
 
 #include <EGL/egl.h>
 #include <GLES/gl.h>
+#include <string>
 
 #include "MyLog.h"
 #include "demo.h"

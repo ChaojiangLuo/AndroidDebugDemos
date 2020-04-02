@@ -1,47 +1,47 @@
-
 {
-	"buildFiles" : 
-	[
-		"/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/CMakeLists.txt"
-	],
-	"cleanCommands" : 
-	[
-		"/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86 --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"MyJNI-lib-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "MyJNI-lib",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86 --target MyJNI-lib",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMyJNI_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/src/main/cpp/JniDemo.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMyJNI_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/src/main/cpp/DumpAnywhere.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/build/intermediates/cmake/debug/obj/x86/libMyJNI-lib.so",
-			"toolchain" : "6191103400009865258"
-		}
-	},
-	"toolchains" : 
-	{
-		"6191103400009865258" : 
-		{
-			"cCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {
+    "0": "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DMyJNI_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/CMakeLists.txt",
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "MyJNI-lib-Debug-x86": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/.cxx/cmake/debug/x86\" MyJNI-lib",
+      "buildType": "debug",
+      "toolchain": "3569794306",
+      "abi": "x86",
+      "artifactName": "MyJNI-lib",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/src/main/cpp/JniDemo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/src/main/cpp/DumpAnywhere.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/D04-MemoryDebug/build/intermediates/cmake/debug/obj/x86/libMyJNI-lib.so"
+    }
+  },
+  "toolchains": {
+    "3569794306": {
+      "cppCompilerExecutable": "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

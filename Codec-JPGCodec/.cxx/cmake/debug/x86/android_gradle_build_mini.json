@@ -1,26 +1,29 @@
 {
   "buildFiles": [
-    "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/CMakeLists.txt"
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/CMakeLists.txt",
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
   ],
   "cleanCommands": [
-    "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target clean"
+    "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" clean"
   ],
+  "buildTargetsCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native_activity_glue-Debug-x86": {
       "artifactName": "native_activity_glue",
-      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target native_activity_glue",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" native_activity_glue",
       "abi": "x86",
       "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libnative_activity_glue.a"
     },
     "jpg_codec-Debug-x86": {
       "artifactName": "jpg_codec",
-      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target jpg_codec",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" jpg_codec",
       "abi": "x86",
       "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/build/intermediates/cmake/debug/obj/x86/libjpg_codec.so"
     },
     "jpeg-Debug-x86": {
       "artifactName": "jpeg",
-      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target jpeg",
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" jpeg",
       "abi": "x86",
       "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libjpeg.a"
     }

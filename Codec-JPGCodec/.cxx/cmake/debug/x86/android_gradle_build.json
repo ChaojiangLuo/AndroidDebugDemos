@@ -1,384 +1,505 @@
-
 {
-	"buildFiles" : 
-	[
-		"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/CMakeLists.txt"
-	],
-	"cFileExtensions" : [ "c" ],
-	"cleanCommands" : 
-	[
-		"/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"jpeg-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "jpeg",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target jpeg",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcapimin.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcapistd.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jaricom.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcarith.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jccoefct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jccolor.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcdctmgr.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jchuff.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcinit.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmainct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmarker.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmaster.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcomapi.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcparam.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcphuff.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcprepct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcsample.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jctrans.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdapimin.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdapistd.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdarith.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdatadst.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdatasrc.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdcoefct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdcolor.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jddctmgr.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdhuff.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdinput.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmainct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmarker.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmaster.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmerge.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdphuff.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdpostct.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdsample.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdtrans.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jerror.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctflt.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctfst.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctint.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctflt.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctfst.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctint.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctred.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jmemmgr.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jmemnobs.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jquant1.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jquant2.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jutils.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jsimd_i386.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libjpeg.a",
-			"toolchain" : "6191103400009865258"
-		},
-		"jpg_codec-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "jpg_codec",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target jpg_codec",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djpg_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -DPIC -DELF -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/JpgCodecNativeActivity.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djpg_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -DPIC -DELF -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/JpegTest.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				},
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djpg_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11  -Werror -D VK_USE_PLATFORM_ANDROID_KHR -DPIC -DELF -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/utils.cpp",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/build/intermediates/cmake/debug/obj/x86/libjpg_codec.so",
-			"toolchain" : "6191103400009865258"
-		},
-		"native_activity_glue-Debug-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "native_activity_glue",
-			"buildCommand" : "/home/luocj/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86 --target native_activity_glue",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
-					"workingDirectory" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86"
-				}
-			],
-			"output" : "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libnative_activity_glue.a",
-			"toolchain" : "6191103400009865258"
-		}
-	},
-	"toolchains" : 
-	{
-		"6191103400009865258" : 
-		{
-			"cCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {
+    "0": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Djpg_codec_EXPORTS -I/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../jpeg/libjpeg-turbo -I../../../../jpeg/libjpeg-turbo/simd -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -Werror -D VK_USE_PLATFORM_ANDROID_KHR -DPIC -DELF -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=i686-none-linux-android24 --gcc-toolchain=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "4": "null"
+  },
+  "buildFiles": [
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/CMakeLists.txt",
+    "/home/luocj/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_activity_glue-Debug-x86": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" native_activity_glue",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "x86",
+      "artifactName": "native_activity_glue",
+      "files": [
+        {
+          "src": "/home/luocj/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libnative_activity_glue.a"
+    },
+    "jpg_codec-Debug-x86": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" jpg_codec",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "x86",
+      "artifactName": "jpg_codec",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/JpgCodecNativeActivity.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/JpegTest.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/src/main/cpp/utils.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/build/intermediates/cmake/debug/obj/x86/libjpg_codec.so"
+    },
+    "jpeg-Debug-x86": {
+      "buildCommand": "/home/luocj/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86\" jpeg",
+      "buildType": "debug",
+      "toolchain": "2880606592",
+      "abi": "x86",
+      "artifactName": "jpeg",
+      "files": [
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jccolor-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jccolor-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jcgray-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jcgray-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jchuff-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jcsample-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jcsample-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdcolor-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdcolor-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdmerge-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdmerge-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdsample-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jdsample-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctflt-3dn.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctflt-sse.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctfst-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctfst-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctint-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jfdctint-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctflt-3dn.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctflt-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctflt-sse.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctfst-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctfst-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctint-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctint-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctred-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jidctred-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jquant-3dn.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jquantf-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jquanti-sse2.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jquant-mmx.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jquant-sse.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jsimdcpu.asm",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcapimin.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcapistd.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jaricom.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcarith.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jccoefct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jccolor.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcdctmgr.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jchuff.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcinit.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmainct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmarker.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcmaster.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcomapi.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcparam.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcphuff.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcprepct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jcsample.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jctrans.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdapimin.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdapistd.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdarith.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdatadst.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdatasrc.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdcoefct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdcolor.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jddctmgr.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdhuff.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdinput.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmainct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmarker.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmaster.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdmerge.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdphuff.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdpostct.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdsample.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jdtrans.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jerror.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctflt.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctfst.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jfdctint.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctflt.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctfst.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctint.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jidctred.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jmemmgr.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jmemnobs.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jquant1.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jquant2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/jutils.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/jpeg/libjpeg-turbo/simd/jsimd_i386.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/luocj/my_works/sources/AndroidDebugDemos/Codec-JPGCodec/.cxx/cmake/debug/x86/libjpeg.a"
+    }
+  },
+  "toolchains": {
+    "2880606592": {
+      "cCompilerExecutable": "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/luocj/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }
